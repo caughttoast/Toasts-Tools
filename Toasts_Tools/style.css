@@ -1,0 +1,150 @@
+body {
+    background-color:blanchedalmond;
+    margin:0;
+    padding:0;
+}
+header {
+    background-color:#964912;
+    color:#ffffff;
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.toaststoolstitle {
+    font-size: 5vh;
+    color:#ffebcd;
+}
+.toaststoolsheaderlogo {
+    width:7vh;
+    height:7vh;
+    padding:10px
+}
+.navigationbarbase {
+    font-size: 3vh;
+    color:#ffebcd;
+    display: flex;
+    text-decoration: none;
+    padding: 2vw;
+    } 
+.navigationbar {
+font-size: 3vh;
+color:#ffebcd;
+display: flex;
+text-decoration: none;
+padding: 2vw;
+transition: transform 250ms;
+} 
+.navigationbar:hover {
+    transform: scale(1.2);
+}
+#move {
+    cursor: move;
+  }
+h1 {
+color:#964912;
+padding-right: 1vw;
+padding-left: 1vw;
+padding-bottom:0px;
+padding-top: 20px;
+font-weight: bold;
+}
+h2 {
+    color:#964912;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom:0px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+h3 {
+    color:#964912;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom:0px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+p {
+    color:#452610;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    }
+hr {
+    border-color:#964912;
+    size:10px;
+    }
+.flexmodule {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:75%;
+    padding-top:5px;
+}
+.bodylink {
+    text-decoration: none;
+    color: #964912;
+}
+.container {
+    display:table ;
+  }
+  
+  .code {
+    display:table-row ;
+  }
+  
+  .code .left,
+  .code .right{
+  display:table-cell ;
+  vertical-align:top ;
+  }
+  
+  .code .left { width:500px ; }
+  
+  .left img { width:100px ; height:100px ; background:blue ; }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 3vh;  
+    border: none;
+    outline: none;
+    color: #ffebcd;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #563503;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffebcd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ffebcd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
